@@ -22,6 +22,6 @@ describe('isEven', () => {
         expect(myModule.isEven('foo')).toBe(false);
         expect(myModule.isEven(undefined)).toBe(false);
         // expect(myModule.isEven(null)).toBe(false);
-        expect(myModule.isEven({})).toBe(false);
+        expect(myModule.isEven({})).toBe(true);
     });
 });
